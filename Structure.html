@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Rat Central</title>
+    <style>
+
+  h1{text-align: center;
+color: white;
+font-size: 34px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 50px;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 15px 10px 15px;
+  background:  #40404F;
+
+
+}
+
+
+
+body{
+  background-color:#D09775;
+}
+
+img{display: block;
+margin: 0 auto;
+max-width: 90%;
+border-radius: 10px;}
+
+p{ line-height: 1.5;
+  font-size: 13px;
+  margin: 20px 0 10px;
+  color: white ;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+button{ display: block;
+  margin: 20px auto;
+  background: #7B93AC;
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+button:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.conatiner{max-width: 600px;
+margin: 0 auto;
+padding: 30px 60px;}
+
+.Learn-More {display: block;
+margin-top: 10px;
+font-size: 12px;
+text-decoration: none;
+color: white;}
+
+.Learn-More:hover {text-decoration: underline;
+
+}
+
+.footer{text-align: center;}
+
+  </style>
+  
+</head>
+<body>
+
+  <div class="container">
+
+<h1> Gym Rat Central</h1>
+
+
+ <img src="https://i.icanvas.com/HEF179?d=3&sh=h&s=xl&p=1&bg=c&t=1708045324" alt="Gym Rat"  width="400">
+ <p>Being a Gym Rat is all about smashing your personal goals within the Gym, it doesn't matter what athletic level you are, all that matters is showing up for yourselve- especially on days when its the hardest!</p>
+ <br>
+ <a href="https://www.dictionary.com/browse/gym-rat" target="_blank" class="Learn-More"> Learn More Here</a>
+ <button class="sign-up-button">Become A Fellow Gym Rat</button>
+ <p class="footer">
+This page was built by Cleo ❤️
+</p>
+</div>
+<script>
+  function signUp() {
+    let name = prompt("What is your name?");
+    let email = prompt("What is your email address?");
+    let emoji = prompt("Pick what Emoji that best represents you!");
+
+    alert(
+      "Thank you, " +
+        name +
+        "! We'll be in touch by email. Meanwhile, get pumping with your favorite mascot!: " +
+        emoji
+    );
+  }
+
+  let signUpButton = document.querySelector(".sign-up-button");
+  signUpButton.addEventListener("click", signUp);
+
+</script>
+</body>
+</html>
