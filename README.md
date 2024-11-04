@@ -12,7 +12,7 @@ Responsive Design: The layout is optimized for various screen sizes, ensuring a 
 
 Live Demo: 
 
-You can view the Live demo  [here](https://cleo469.github.io/<Gym-Website>/).
+You can view the Live demo  [here](https://cleo469.github.io/Gym-Website/).
 
 
 
