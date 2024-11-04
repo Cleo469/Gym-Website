@@ -10,18 +10,11 @@ User Interaction: Users can sign up by entering their name, email, and a chosen 
 Motivational Content: The site provides an inspirational message encouraging users to push through their fitness challenges.
 Responsive Design: The layout is optimized for various screen sizes, ensuring a pleasant user experience across devices.
 
-Getting Started:
-To run the Gym Rat Central website locally, follow these steps:
+Live Demo: 
 
-1)Clone the Repository:
+You can view the Live demo  [here](urlhttps://cleo469.github.io/Gym-Website)
 
-git clone , respitory url ,
 
-2)Open the HTML File: Navigate to the cloned directory and open index.html in a web browser.
-
-3)Interact with the Website:
-
-4)Click on the "Become A Fellow Gym Rat" button to sign up.
 Fill in the prompted fields: name, email address, and select an emoji.
 An alert will confirm your sign-up and provide a personalized message.
 
